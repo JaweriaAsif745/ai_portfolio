@@ -5,6 +5,27 @@ This portfolio highlights my end-to-end projects — from classic ML models to w
 
 ---
 
+## 🧠 Deep Learning & Computer Vision Projects
+
+
+### 📌 [SignifyAI-Real-Time-American-Sign-Language-Recognition](https://github.com/JaweriaAsif745/-SignifyAI-Real-Time-American-Sign-Language-Recognition)  
+- **Goal:** Recognize American Sign Language (ASL) hand gestures and translate them into English alphabets in real-time.
+- **Approach:** Fine-tuned a ResNet18 model using PyTorch on an ASL alphabet dataset. Integrated the model with a Flask web app for image uploads and live webcam recognition. Implemented data augmentation for lighting and background variations.
+- **Results:** Accuracy is 99% 
+- **Tech Stack:** PyTorch, Flask, OpenCV, HTML, CSS, JavaScript
+- Demo Videos:
+
+📸 1. Website Walkthrough:
+👉 https://github.com/user-attachments/assets/73fef755-8e1f-4bc5-b384-34790c39c9a2
+
+🖼️ 2. Upload Recognition (Image Prediction):
+👉 https://github.com/user-attachments/assets/2099a1af-6b1d-453a-870c-20049fd8fc22
+
+📹 3. Live Webcam Recognition:
+👉 https://github.com/user-attachments/assets/981924ae-1a94-4d59-a4e7-f2bc925a8ddb
+
+---
+
 ## 🔬 Machine Learning & NLP Projects  
 
 
