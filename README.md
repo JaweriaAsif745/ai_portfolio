@@ -26,6 +26,26 @@ This portfolio highlights my end-to-end projects — from classic ML models to w
 
 ---
 
+## 🎯 Resume + GitHub + Job Analyzer
+
+* **Goal:** Analyze a user's **resume, GitHub profile, and optional job description** to identify skill gaps and generate actionable recommendations.
+* **Approach:**
+
+  * Parses **resume PDFs** to extract skills
+  * Fetches **GitHub repositories and languages**, extracts skills from descriptions and topics
+  * Compares **skills in resume, GitHub, and job description**
+  * Calculates **match scores** and highlights missing skills
+* **Tech Stack:** Python, Streamlit, PyPDF2, GitHub REST API
+* **Results:** Fully interactive dashboard with **skill comparison charts**, **match scores**, and actionable insights.
+
+### 📸 Full Result Screenshot
+
+<img width="1920" height="7594" src="https://github.com/user-attachments/assets/3ecd1389-4c92-4419-91a7-30f80837d022" />  
+
+**Repo:** [Resume + GitHub Job Analyzer GitHub](https://github.com/JaweriaAsif745/Resume-github-job-analyzer)
+
+---
+
 ## 🔬 Machine Learning & NLP Projects  
 
 
