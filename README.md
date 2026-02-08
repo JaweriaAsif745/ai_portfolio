@@ -40,8 +40,6 @@ This portfolio highlights my end-to-end projects — from classic ML models to w
 
 ### 📸 Full Result Screenshot
 
-<img width="1920" height="7594" src="https://github.com/user-attachments/assets/3ecd1389-4c92-4419-91a7-30f80837d022" />  
-
 **Repo:** [Resume + GitHub Job Analyzer GitHub](https://github.com/JaweriaAsif745/Resume-github-job-analyzer)
 
 ---
