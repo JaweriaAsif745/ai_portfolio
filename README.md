@@ -7,40 +7,35 @@ This portfolio highlights my end-to-end projects — from classic ML models to w
 
 ## 🧠 Deep Learning & Computer Vision Projects
 
+### 📌 [SignifyAI – Real-Time American Sign Language Recognition](https://github.com/JaweriaAsif745/-SignifyAI-Real-Time-American-Sign-Language-Recognition)
 
-### 📌 [SignifyAI-Real-Time-American-Sign-Language-Recognition](https://github.com/JaweriaAsif745/-SignifyAI-Real-Time-American-Sign-Language-Recognition)  
-- **Goal:** Recognize American Sign Language (ASL) hand gestures and translate them into English alphabets in real-time.
-- **Approach:** Fine-tuned a ResNet18 model using PyTorch on an ASL alphabet dataset. Integrated the model with a Flask web app for image uploads and live webcam recognition. Implemented data augmentation for lighting and background variations.
-- **Results:** Accuracy is 99% 
-- **Tech Stack:** PyTorch, Flask, OpenCV, HTML, CSS, JavaScript
-- Demo Videos:
+*Goal:* Recognize American Sign Language (ASL) hand gestures and translate them into English alphabets in real-time.
+*Approach:* Fine-tuned a ResNet18 model using PyTorch on an ASL alphabet dataset. Integrated the model with a Flask web app for image uploads and live webcam recognition. Implemented data augmentation for lighting and background variations.
+*Results:* Accuracy is 99%.
+*Tech Stack:* PyTorch, Flask, OpenCV, HTML, CSS, JavaScript.
 
-📸 1. Website Walkthrough:
-👉 https://github.com/user-attachments/assets/73fef755-8e1f-4bc5-b384-34790c39c9a2
-
-🖼️ 2. Upload Recognition (Image Prediction):
-👉 https://github.com/user-attachments/assets/2099a1af-6b1d-453a-870c-20049fd8fc22
-
-📹 3. Live Webcam Recognition:
-👉 https://github.com/user-attachments/assets/981924ae-1a94-4d59-a4e7-f2bc925a8ddb
+📸 [Website Walkthrough](https://github.com/user-attachments/assets/73fef755-8e1f-4bc5-b384-34790c39c9a2) | 🖼️ [Upload Recognition](https://github.com/user-attachments/assets/2099a1af-6b1d-453a-870c-20049fd8fc22) | 📹 [Live Webcam Recognition](https://github.com/user-attachments/assets/981924ae-1a94-4d59-a4e7-f2bc925a8ddb)
 
 ---
 
-## 🎯 Resume + GitHub + Job Analyzer
+### 📌 [Human Action Recognition (CNN + LSTM)](https://github.com/JaweriaAsif745/Human-Activity-Recognition)
 
-* **Goal:** Analyze a user's **resume, GitHub profile, and optional job description** to identify skill gaps and generate actionable recommendations.
-* **Approach:**
+*Goal:* Real-time human action recognition from video files or live webcam streams.
+*Approach:* Implemented a **CNN + LSTM architecture** in PyTorch to capture spatial and temporal features. Top 3 predicted actions are displayed in real-time, with the highest confidence action highlighted. Built an **interactive Streamlit web app** for easy usage.
+*Dataset:* [UCF101](https://www.kaggle.com/datasets/matthewjansen/ucf101-action-recognition) – 101 action classes from YouTube videos.
+*Results:* Real-time action detection with temporal modeling across video sequences.
+*Tech Stack:* Python, PyTorch, LSTM, OpenCV, Streamlit, NumPy, Pillow.
 
-  * Parses **resume PDFs** to extract skills
-  * Fetches **GitHub repositories and languages**, extracts skills from descriptions and topics
-  * Compares **skills in resume, GitHub, and job description**
-  * Calculates **match scores** and highlights missing skills
-* **Tech Stack:** Python, Streamlit, PyPDF2, GitHub REST API
-* **Results:** Fully interactive dashboard with **skill comparison charts**, **match scores**, and actionable insights.
+*Demo:* Run locally with `streamlit run app.py`, upload videos or use webcam to see top action predictions highlighted on screen.
 
-### 📸 Full Result Screenshot
+---
 
-**Repo:** [Resume + GitHub Job Analyzer GitHub](https://github.com/JaweriaAsif745/Resume-github-job-analyzer)
+### 📌 [Resume + GitHub + Job Analyzer](https://github.com/JaweriaAsif745/Resume-github-job-analyzer)
+
+*Goal:* Analyze a user's resume, GitHub profile, and optional job description to identify skill gaps and generate actionable recommendations.
+*Approach:* Parsed resumes, fetched GitHub repositories, compared skills, and calculated match scores.
+*Results:* Fully interactive dashboard with skill comparison charts and actionable insights.
+*Tech Stack:* Python, Streamlit, PyPDF2, GitHub REST API.
 
 ---
 
